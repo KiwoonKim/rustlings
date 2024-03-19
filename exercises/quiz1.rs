@@ -13,11 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
+fn calculate_price_of_apples(quantity : u32) -> u32 {
+    if quantity > 40 {
+        quantity
+    } else {
+        quantity * 2
+    }
+}
 // fn calculate_price_of_apples {
-
 // Don't modify this function!
 #[test]
 fn verify_test() {
